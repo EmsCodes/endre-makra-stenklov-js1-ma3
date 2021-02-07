@@ -1,3 +1,7 @@
+//Error function
+function displayError(message = "Unknown error!") {
+  return `<div class="error">${message}</div>`;
+}
 //API call
 const url =
   "https://api.rawg.io/api/games?dates=2019-01-01,2019-12-31&ordering=-rating";
